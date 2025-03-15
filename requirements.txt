@@ -1,0 +1,23 @@
+dm-tree==0.1.9
+
+# first install these
+tensorflow-macos==2.16.2
+tensorflow-metal==1.2.0
+tensorflow-datasets==4.9.8
+
+# then install all of these
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+numpy==1.25.2  # Downgraded for TensorFlow compatibility
+pandas==2.1.4  # Adjusted for numpy<1.26 compatibility
+matplotlib==3.10.1
+seaborn==0.13.2
+scikit-learn==1.6.1
+jupyterlab==4.3.6
+notebook==7.3.3
+ipywidgets==8.1.5
+tqdm==4.67.1
+ipykernel==6.29.5
+
+
