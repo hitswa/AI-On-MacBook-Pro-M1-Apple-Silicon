@@ -4,3 +4,5 @@ include
 lib
 share
 pyvenv
+*.h5
+**/logs
